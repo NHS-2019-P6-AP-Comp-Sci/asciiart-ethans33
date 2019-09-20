@@ -17,11 +17,39 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	public static void Short() {
+		System.out.println(" \"||||*|||*|||*|||*|||*|||-----------------------------------");
+		System.out.println(" \"||*|||*|||*|||*|||*|||*|===================================");
+	}
+
+	public static void Stripes() {
+		System.out.println(" \"-----------------------------------------------------------");
+		System.out.println(" \"===========================================================");
+	}
+	public static void Pole_human() {
+		System.out.println(" \"  |");
+	}
+	public static void pole() {
+		System.out.println(" \"");
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		System.out.println(" ^||*|||*|||*|||*|||*|||*|===================================");
+Short();
+Short();
+Short();
+Short();
+Stripes();
+Stripes();
+pole();
+pole();
+System.out.println(" \"       _[ What an honor to be holding THE US flag!]");
+System.out.println(" \"(^ ^)_/");
+Pole_human();
+System.out.println(" \" \\|");
+System.out.println(" \"  |\\");
+Pole_human();
+Pole_human();
+System.out.println(" \" / \\");
+System.out.println("My boy Bobert holding up the US flag to celebrate the 4th of July");
 	}
 }
